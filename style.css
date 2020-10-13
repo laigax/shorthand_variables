@@ -1,0 +1,74 @@
+body {
+  background-color:   mediumpurple;
+}
+#txtElderflower {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: white;
+}
+#content {
+  width: 35%;
+  margin: 0px auto;
+  padding: 20px;
+  border-style: double;
+  border-width: 3px;
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#txtCustomSignage {
+  text-align: center;
+}
+#cost {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: tomato;
+}
+#imgMontagueHouse {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  background-color: gray;
+  color: white;
+  border: 5px double black;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1615px) {
+  #content {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1445px) {
+  #content {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1155px) {
+  #content {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 940px) {
+  #content {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 815px) {
+  #content {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 715px) {
+  #content {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #content {
+    width: 70%;
+  }
+}
